@@ -1,0 +1,33 @@
+.maindiv{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 100px;
+}
+.box{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.158);
+
+    padding: 10px;
+}
+.img{
+    text-align: center;
+}
+.btn{
+    background-color: blue;
+    color: white;
+    padding: 10px 30px;
+    cursor: pointer;
+    border: 3px solid transparent;
+    font-weight: bold;
+    transition: all 0.3s;
+    width: 100%;
+}
+.btn:hover{
+    border: 3px solid blue;
+    background-color: white;
+    color: black;
+}
+.container{
+    width: 1152px;
+    margin: auto;
+}
+
